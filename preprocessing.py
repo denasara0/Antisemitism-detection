@@ -35,6 +35,9 @@ for _, row in output.iterrows():
             tweet_id = post.get("post_id", "")
             date_posted = post.get("date_posted", "")
             post_location = post.get("location", "")
+            post_likes = post.get("likes," "")
+            post_views = post.get("views", "")
+
 
             if description and tweet_id:
                 if any(kw.lower() in description.lower() for kw in keywords):
@@ -44,10 +47,16 @@ for _, row in output.iterrows():
                         "tweet_id": tweet_id,
                         "Username": username,
                         "date_posted": date_posted,
-                        "post_location": post_location
+                        "post_location": post_location,
+                        "post_likes": post_likes,
+                        "post_views": post_views
                     })
-                    text_id += 1
+                    i += 1
 
     except Exception as e:
         print(f"Unexpected error: {e}")
 
+# now save the clean data to a new file
+df_out = pd.DataFrame(parsed_rows)
+df_out.to_csv("put the file path and name here.csv")
+print("mission accomplished :)") 
