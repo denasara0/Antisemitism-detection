@@ -43,7 +43,8 @@ for _, row in output.iterrows():
                         "Text": description,
                         "tweet_id": tweet_id,
                         "Username": username,
-                        "date_posted": date_posted
+                        "date_posted": date_posted,
+                        "post_location": post_location
                     })
                     text_id += 1
 
