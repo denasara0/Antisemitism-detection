@@ -7,9 +7,9 @@ output = pd.read_csv("bd_20250724_032851_0.csv")
 
 # defining the search terms for later use
 keywords = ["Israhell", "Isnotreal", "From the river to the sea",
-"Colonialism", "Settler",  "Colonizer", "Genocide", "Liberation", 
-"Zionist", "Nazi", "Palestinian", "Israel", "Jews", "Palestine", "Gaza", "terrorism", "war", "solidarity",
-"terrorist state", "crime", "crimes" 
+"Colonialism", "Settler",  "Colonizer", "Genocide", 
+"Zionist", "Nazi", "Palestinian", "Israel", "Jews", "Palestine", "Gaza", "terrorist",
+"terrorist state", "crime" 
 ]
 
 # creating storage for the parsed/cleaned data
