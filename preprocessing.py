@@ -3,10 +3,13 @@ import pandas as pd
 import json
 
 # recieve output file & load from the webscraper
-output = pd.read_csv("webscrape_output.csv")
+output = pd.read_csv("bd_20250724_025102_0.csv")
 
 # defining the search terms for later use
-keywords = ["I'll do this later"]
+keywords = ["Israhell", "Isnotreal", "From the river to the sea" 
+"Colonialism", "Settler",  "Colonizer", "Genocide", "Liberation", 
+"Zionist", "Nazi", "Palestinian", "Israel", "Jews", "Palestine", "Gaza" 
+]
 
 # creating storage for the parsed/cleaned data
 parsed_rows = []
@@ -58,5 +61,5 @@ for _, row in output.iterrows():
 
 # now save the clean data to a new file
 df_out = pd.DataFrame(parsed_rows)
-df_out.to_csv("put the file path and name here.csv")
+df_out.to_csv("clean_data.csv")
 print("mission accomplished :)") 
