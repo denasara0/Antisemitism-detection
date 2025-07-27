@@ -1,0 +1,101 @@
+Sample ID,Sample Name,Object ID,Sr Number,1. Is the post still online?*,2. Is the post antisemitic according to IHRA-WDA?*,3. IHRA Section That Applies (check at least one)*,4. What content type transports the antisemitic message? (check all that apply)*,5. Is the post calling out or reporting on antisemitism?*,Time Taken
+155,Sample4,1763342003629088804,1," If it is online, proceed to the next question.", Confident antisemitic," 1.0 Hatred towards Jews,  3.1.1 Justifying harming of Jews in the name of a radical ideology,  3.1.10 Drawing comparisons between Israeli policy and that of the Nazis"," Written text,  Post description, hashtag, or username", No,16
+155,Sample4,1938027874079866986,2," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,346
+155,Sample4,1942688481882620162,3," If it is online, proceed to the next question.", Probably not antisemitic, None or n/a, None or n/a, No,28
+155,Sample4,1853224245884850391,4," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,92
+155,Sample4,1947984493035348044,5," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,67
+155,Sample4,1809140786673356904,6," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,52
+155,Sample4,1937486897502388372,7," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,249
+155,Sample4,1933644653045428598,8," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a,Yes,57
+155,Sample4,1739239938594570509,9," If it is online, proceed to the next question.", Confident antisemitic," 1.0 Hatred towards Jews,  3.1.11 Holding Jews collectively responsible for actions of the state of Israel"," Written text,  Post description, hashtag, or username", No,234
+155,Sample4,1947042844939899178,10," If it is online, proceed to the next question.", Probably not antisemitic, None or n/a, None or n/a, No,109
+155,Sample4,1805085234112651538,11," If it is online, proceed to the next question.", Probably antisemitic," 1.0 Hatred towards Jews,  3.1.3 Blaming the Jews as a people for what a single person or group has done", Written text, No,137
+155,Sample4,1840147670746181794,12," If it is online, proceed to the next question.", Probably not antisemitic, None or n/a, None or n/a, No,128
+155,Sample4,1930350127740530948,13," If it is online, proceed to the next question.", Probably not antisemitic, None or n/a, None or n/a, No,165
+155,Sample4,1943279125428355400,14," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,27
+155,Sample4,1928984826817708052,15," If it is online, proceed to the next question.", Probably antisemitic," 1.0 Hatred towards Jews,  3.1.1 Justifying harming of Jews in the name of a radical ideology", Visuals / imagery / video, No,80
+155,Sample4,1840120083001098620,16," If it is online, proceed to the next question.", Probably not antisemitic, None or n/a, None or n/a, No,105
+155,Sample4,1942593895864623271,17," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,28
+155,Sample4,1937521578633498696,18," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,82
+155,Sample4,1939129399527514137,19," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,46
+155,Sample4,1848745691088359700,20," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,184
+155,Sample4,1775957788138651862,21," If it is online, proceed to the next question.", I don’t know, None or n/a, None or n/a, No,509
+155,Sample4,1935351344350523892,22," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,74
+155,Sample4,1745746128812093859,23," If it is online, proceed to the next question.", Probably not antisemitic, None or n/a, None or n/a, No,45
+155,Sample4,1849470263274148302,24," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,78
+155,Sample4,1944507819446972740,25," If it is online, proceed to the next question.", Probably not antisemitic, None or n/a, None or n/a, No,23
+155,Sample4,1947237129769095279,26," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,111
+155,Sample4,1931659673872056741,27," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,73
+155,Sample4,1941540286519443472,28," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,42
+155,Sample4,1843687748315889734,29," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,75
+155,Sample4,1931864213515038995,30," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,38
+155,Sample4,1940100242625413593,31," If it is online, proceed to the next question.,  If it is permanently offline or deleted, mark accordingly.", Confident not antisemitic, None or n/a, None or n/a, No,38
+155,Sample4,1939187877771927794,32," If it is online, proceed to the next question.", Probably not antisemitic, None or n/a, None or n/a, No,111
+155,Sample4,1930027851694141926,33," If it is online, proceed to the next question.", Probably not antisemitic, None or n/a, None or n/a, No,153
+155,Sample4,1818006301793734863,34," If it is online, proceed to the next question.,  If it is permanently offline or deleted, mark accordingly.", Confident antisemitic," 1.0 Hatred towards Jews,  3.1.2 Mendacious or stereotypical allegations about Jews as such + Jewish power", Written text, No,203
+155,Sample4,1943569229829009847,35," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,38
+155,Sample4,1939363171472666877,36," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,32
+155,Sample4,1927471850172321795,37," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,30
+155,Sample4,1947589938830066007,38," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,23
+155,Sample4,1937630743284584709,39," If it is online, proceed to the next question.", Confident antisemitic," 1.0 Hatred towards Jews,  3.1.2 Mendacious or stereotypical allegations about Jews as such + Jewish power", Written text, No,47
+155,Sample4,1939798916976742519,40," If it is online, proceed to the next question.", Probably not antisemitic, None or n/a, None or n/a, No,33
+155,Sample4,1905330145801490600,41," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,65
+155,Sample4,1764330224366256155,42," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,131
+155,Sample4,1947716791335043393,43," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,41
+155,Sample4,1728560068868882556,44," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,95
+155,Sample4,1910813753790341366,45," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,42
+155,Sample4,1938503626936238467,46," If it is online, proceed to the next question.", Probably not antisemitic, None or n/a, None or n/a, No,253
+155,Sample4,1947011891424808987,47," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,32
+155,Sample4,1876224939608732132,48," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,142
+155,Sample4,1928262006252924952,49," If it is online, proceed to the next question.", Probably not antisemitic, None or n/a, None or n/a, No,106
+155,Sample4,1944558614922088817,50," If it is online, proceed to the next question.", Probably not antisemitic, None or n/a, None or n/a, No,158
+155,Sample4,1937983021359177796,51," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,129
+155,Sample4,1942323670514315724,52," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,16
+155,Sample4,1939114881476649318,53," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,17
+155,Sample4,1946893677231489436,54," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,19
+155,Sample4,1943234329246683215,55," If it is online, proceed to the next question.", Probably antisemitic," 1.0 Hatred towards Jews,  3.1.2 Mendacious or stereotypical allegations about Jews as such + Jewish power", Written text, No,256
+155,Sample4,1918046921354297739,56," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,43
+155,Sample4,1941538365876338719,57," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,19
+155,Sample4,1883917789582483896,58," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,14
+155,Sample4,1939385405893410970,59," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,33
+155,Sample4,1842287875515134121,60," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,35
+155,Sample4,1713666146396742073,61," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,38
+155,Sample4,1936580025018683512,62," If it is online, proceed to the next question.", Probably not antisemitic, None or n/a, None or n/a, No,32
+155,Sample4,1787919278223585623,63," If it is online, proceed to the next question."," Probably antisemitic,  Confident antisemitic"," 1.0 Hatred towards Jews,  3.1.1 Justifying harming of Jews in the name of a radical ideology,  3.1.2 Mendacious or stereotypical allegations about Jews as such + Jewish power,  3.1.3 Blaming the Jews as a people for what a single person or group has done"," Written text,  Post description, hashtag, or username", No,112
+155,Sample4,1947989353533260151,64," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,17
+155,Sample4,1943793093700202546,65," If it is online, proceed to the next question.", Probably not antisemitic, None or n/a, None or n/a, No,25
+155,Sample4,1837857220052038109,66," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,35
+155,Sample4,1896403870357901801,67," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,44
+155,Sample4,1764330221614805080,68," If it is online, proceed to the next question.", Confident antisemitic," 1.0 Hatred towards Jews,  3.1.1 Justifying harming of Jews in the name of a radical ideology,  3.1.7 Denying the Jewish people right to self-determination, e.g., ‘Israel is racist per se’", Written text, No,99
+155,Sample4,1831327891390390579,69," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,22
+155,Sample4,1763876114412318752,70," If it is permanently offline or deleted, mark accordingly.", Probably not antisemitic, None or n/a, None or n/a, No,127
+155,Sample4,1940060353573814436,71," If it is online, proceed to the next question.", Probably not antisemitic, None or n/a, None or n/a, No,26
+155,Sample4,1867624484615991495,72," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,25
+155,Sample4,1939584493301473653,73," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,14
+155,Sample4,1946972261946150999,74," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,25
+155,Sample4,1944105130757853317,75," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,13
+155,Sample4,1773021090614218993,76," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,31
+155,Sample4,1763509217619521901,77," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,81
+155,Sample4,1931347935712645447,78," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,115
+155,Sample4,1940273945057665441,79," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,110
+155,Sample4,1933219837121003750,80," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,45
+155,Sample4,1845191609933021606,81," If it is online, proceed to the next question.", Confident antisemitic," 1.0 Hatred towards Jews,  3.1.2 Mendacious or stereotypical allegations about Jews as such + Jewish power,  3.1.3 Blaming the Jews as a people for what a single person or group has done", Written text, No,68
+155,Sample4,1933612493915762979,82," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,16
+155,Sample4,1944775352594665620,83," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,17
+155,Sample4,1939910880533311970,84," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,14
+155,Sample4,1942088529221489073,85," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,13
+155,Sample4,1947204772244681087,86," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,36
+155,Sample4,1893078526024188363,87," If it is online, proceed to the next question.", Probably antisemitic, 1.0 Hatred towards Jews, Written text, No,86
+155,Sample4,1947447443362111538,88," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,16
+155,Sample4,1944044702166065208,89," If it is online, proceed to the next question.", Probably antisemitic," 1.0 Hatred towards Jews,  3.1.5 Accusing the Jews/Israel of inventing or exaggerating the Holocaust", Written text, No,163
+155,Sample4,1939267463050396013,90," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,24
+155,Sample4,1934717619908846000,91," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,228
+155,Sample4,1943055291261632736,92," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,18
+155,Sample4,1898069432930648251,93," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,17
+155,Sample4,1941821007825633509,94," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,149
+155,Sample4,1931752452153385191,95," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,16
+155,Sample4,1935600274946543767,96," If it is online, proceed to the next question.", Probably not antisemitic, None or n/a, None or n/a, No,26
+155,Sample4,1936559209614561482,97," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,15
+155,Sample4,1930667851397919224,98," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,14
+155,Sample4,1936687024557466084,99," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,40
+155,Sample4,1943507566186627395,100," If it is online, proceed to the next question.", Confident not antisemitic, None or n/a, None or n/a, No,11
