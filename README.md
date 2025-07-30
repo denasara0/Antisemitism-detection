@@ -1,23 +1,18 @@
 # Antisemitism Detection using Naive Bayes
 
-This repository contains a machine learning system for detecting antisemitic content in social media posts using a Naive Bayes classifier.
+This repository contains a machine learning system for detecting antisemitic content in social media posts using a Naive Bayes classifier. This is no longer up to date 
+but will be shortly
 
 ## Project Overview
 
 The system includes:
 - **Text preprocessing**: Cleaning and normalizing social media text
 - **Feature extraction**: Using TF-IDF vectorization for text features
-- **Naive Bayes classification**: Training and predicting antisemitic content
-- **20-80 train-test split**: Proper evaluation of model performance
-- **CSV output**: Adding classification labels to your dataset
+- **CSV output**: Adding classification labels to the dataset
 
 ## Files Description
 
-- `naive_bayes_classifier.py`: Main classifier implementation
-- `create_sample_data.py`: Script to generate sample data for testing
-- `preprocessing.py`: Original preprocessing script for webscraped data
-- `webscrape.py`: Web scraping script (currently empty)
-- `requirements.txt`: Python dependencies
+
 
 ## Installation
 
@@ -68,8 +63,7 @@ The output CSV will include these new columns:
 ## Model Features
 
 - **Text Preprocessing**: Removes URLs, mentions, hashtags, and special characters
-- **TF-IDF Vectorization**: Converts text to numerical features
-- **Naive Bayes**: Fast and effective for text classification
+
 - **Stratified Split**: Maintains class balance in train/test sets
 - **Performance Metrics**: Accuracy, precision, recall, and F1-score
 
