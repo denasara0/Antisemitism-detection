@@ -5,3 +5,4 @@ nltk>=3.6.0
 re
 json
 pickle
+heapq
