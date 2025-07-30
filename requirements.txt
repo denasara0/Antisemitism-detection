@@ -5,4 +5,7 @@ nltk>=3.6.0
 re
 json
 pickle
-heapq
+sklearn.metrics
+krippendorff
+collections
+seaborn
