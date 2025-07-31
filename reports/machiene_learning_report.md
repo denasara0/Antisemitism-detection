@@ -1,3 +1,6 @@
+Base(untrained model results:)
+
+
 
 Antisemitic tweets
 
