@@ -7,7 +7,13 @@ model.predict('I love everybody :)')
 total_count = 0
 # ID,Username,CreateDate,Biased,Keyword
 # going to convert all of the text from tweets in dataset to a list and iterate through a list of all the content and determine the value
-df = pd.read_csv("./GoldStandard2024.csv")
+df = pd.read_csv("GoldStandard2024.csv")
+print(f"Total tweets to process: {len(df)}")
+
+# For testing, let's process only the first 10 tweets first
+df = df.sample(250, random_state=22)
+print(f"Processing first {len(df)} tweets for testing...")
+
 df['annotation'] = ''  # Fixed: proper way to add a column
 drop = ['ID', 'Username', 'CreateDate', 'Biased', 'Keyword']  # Fixed: use column names from GoldStandard2024.csv
 token = ''
