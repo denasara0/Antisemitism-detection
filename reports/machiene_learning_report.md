@@ -1,8 +1,6 @@
 Base(untrained model results:)
-
-
-
 Antisemitic tweets
+34 delcared hate
 
  1. jews            -  26 occurrences
  2. christians      -   7 occurrences
@@ -25,10 +23,38 @@ Antisemitic tweets
 19. islam           -   2 occurrences
 20. law             -   2 occurrences
 
+ML trained model tweets
+60 tweets delcared hate
+
+1. jews            - 185 occurrences
+ 2. israel          - 122 occurrences
+ 3. people          -  39 occurrences
+ 4. jewish          -  33 occurrences
+ 5. world           -  19 occurrences
+ 6. against         -  16 occurrences
+ 7. war             -  16 occurrences
+ 8. muslims         -  15 occurrences
+ 9. said            -  15 occurrences
+10. palestinians    -  15 occurrences
+11. nazis           -  15 occurrences
+12. never           -  13 occurrences
+13. like            -  13 occurrences
+14. holocaust       -  13 occurrences
+15. time            -  12 occurrences
+16. right           -  12 occurrences
+17. christians      -  12 occurrences
+18. get             -  12 occurrences
+19. years           -  12 occurrences
+20. last            -  12 occurrences
+
+
+
+
+
 
 
 All tweets
-
+Full dataset (thousands of tweets)
 
  1. jews            - 185 occurrences
  2. israel          - 122 occurrences
@@ -50,3 +76,6 @@ All tweets
 18. years           -  12 occurrences
 19. last            -  12 occurrences
 20. one             -  12 occurrences
+
+
+T
