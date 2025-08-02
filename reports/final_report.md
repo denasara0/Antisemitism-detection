@@ -2,7 +2,7 @@
 
 ## **General  Summary**
 
-This project implements and compares two approaches for detecting antisemitic content in social media posts: a custom-trained antisemitism detection model and a pre-trained general hate speech detection model. Using a 10-90 test-train split due to computational constraints, we evaluated both models on the same unseen dataset and conducted linguistic analysis to understand patterns in antisemitic content. While the limited dataset size presents challenges, this work provides valuable insights into the effectiveness of specialized vs. general models for antisemitism detection. Future models will benefit from inlcuding a confidence score, and dataset labled as "HATE" and "NOT-HATE" rather than a binary system.
+This project implements and compares two approaches for detecting antisemitic content in social media posts: a custom-trained antisemitism detection model and a pre-trained general hate speech detection model. Using a 10-90 test-train split due to computational constraints, I evaluated both models on the same unseen dataset and conducted linguistic analysis to understand patterns in antisemitic content. While the limited dataset size presents challenges, this work provides valuable insights into the effectiveness of specialized vs. general models for antisemitism detection. Future models will benefit from inlcuding a confidence score, and dataset labled as "HATE" and "NOT-HATE" rather than a binary system.
 
 ---
 
@@ -10,7 +10,7 @@ This project implements and compares two approaches for detecting antisemitic co
 
 ### **1.1 Project Objective**
 
-The primary goal of this challenge was to build and evaluate hate speech detection systems specifically for antisemitic content using both datasets we created and annotated, as well as prexisting datasets. Our approach involved:
+The primary goal of this challenge was to build and evaluate hate speech detection systems specifically for antisemitic content using both datasets I created and annotated, as well as prexisting datasets. Our approach involved:
 
 - Training a custom antisemitism detection model on a human-annotated dataset
 - Comparing it against a pre-trained general hate speech detection model
@@ -37,7 +37,7 @@ Our custom model was trained on a separate set of antisemitic tweets, carefully 
 Both models were evaluated on the same tweet dataset that neither had seen before, ensuring fair comparison.
 
 #### **Data Split Strategy**
-Due to computational limitations, we employed a 10-90 test-train split. While this is not ideal for robust evaluation, it was necessary given hardware constraints.
+Due to computational limitations, I employed a 10-90 test-train split. While this is not ideal for robust evaluation, it was necessary given hardware constraints.
 
 ### **2.2 Model Architecture**
 
@@ -64,7 +64,7 @@ args = TrainingArguments(
 The model trained on a set of pre-annotated datasets. It contiually learned by comparing machine outputs to the human specified bias rating. Multiple checkpoints were saved throughout the model's training, and the most effective one was chosen at the end. The full training script can be found in the repository as training.py
 
 #### **Comparison Model**
-We used a pre-trained hate speech detection model for comparison, specifically designed for general hate speech detection rather than antisemitism-specific content. After the fact, we then ran the models on our own human-annotated dataset of 100 tweets. While the sample sizes were still limited, this was the best way to get a comprehensive comparison of the model's accuracy.
+I used a pre-trained hate speech detection model for comparison, specifically designed for general hate speech detection rather than antisemitism-specific content. After the fact, I then ran the models on a human-annotated dataset of 100 tweets. While the sample sizes were still limited, this was the best way to get a comprehensive comparison of the model's accuracy.
 
 ### **2.3 Text Preprocessing Pipeline**
 
@@ -98,7 +98,7 @@ print(f"Total tweets to process: {len(df)}")
 
 ### **3.1 Model Performance Comparison**
 
-Based on our analysis, we found significant differences in model performance:
+Based on  analysis, I found significant differences in model performance:
 
 #### **Lexical Findings of base model:**
 - **Antisemitic tweets detected**: 34
