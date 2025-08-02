@@ -14,20 +14,7 @@ print(f"Total tweets to process: {len(df)}")
 df = df.sample(250, random_state=22)
 print(f"Processing first {len(df)} tweets for testing...")
 
-df['annotation'] = ''  # Fixed: proper way to add a column
-drop = ['ID', 'Username', 'CreateDate', 'Biased', 'Keyword']  # Fixed: use column names from GoldStandard2024.csv
-token = ''
-classification = ''
-raw_text = df.drop(drop, axis=1)
 
-for index, row in raw_text.iterrows():
-    token = row['Text']  # Fixed: use the correct column name 'Text'
-    classification = model.predict(token)
-    if classification['label'] == 'NOT-HATE':  # Fixed: access the label from the dictionary
-        df.loc[index, 'annotation'] = '0'
-    if classification['label'] == 'HATE':  # Fixed: access the label from the dictionary
-        total_count += 1
-        df.loc[index, 'annotation'] = '1'
 
 print(total_count)
 df.to_csv('ML_annotated_dataframe.csv', index=False)
