@@ -10,7 +10,7 @@ This project implements and compares two approaches for detecting antisemitic co
 
 ### **1.1 Project Objective**
 
-The primary goal of this challenge was to build and evaluate hate speech detection systems specifically for antisemitic content using both datasets I created and annotated, as well as prexisting datasets. Our approach involved:
+The primary goal of this challenge was to build and evaluate hate speech detection systems specifically for antisemitic content using both datasets I created and annotated, as well as prexisting datasets. My approach involved:
 
 - Training a custom antisemitism detection model on a human-annotated dataset
 - Comparing it against a pre-trained general hate speech detection model
@@ -31,7 +31,7 @@ The primary goal of this challenge was to build and evaluate hate speech detecti
 ### **2.1 Dataset Description**
 
 #### **Custom Training Dataset**
-Our custom model was trained on a separate set of antisemitic tweets, carefully curated and annotated for antisemitic content.
+The custom model was trained on a separate set of antisemitic tweets, carefully curated and annotated for antisemitic content.
 
 #### **Evaluation Dataset**
 Both models were evaluated on the same tweet dataset that neither had seen before, ensuring fair comparison.
@@ -42,7 +42,7 @@ Due to computational limitations, I employed a 10-90 test-train split. While thi
 ### **2.2 Model Architecture**
 
 #### **Custom Antisemitism Model**
-Our custom model was built using a transformer-based architecture, specifically fine-tuned for hate detection:
+The custom model was built using a transformer-based architecture, specifically fine-tuned for hate detection:
 
 ```python
 # Model training configuration
@@ -68,7 +68,7 @@ I used a pre-trained hate speech detection model for comparison, specifically de
 
 ### **2.3 Text Preprocessing Pipeline**
 
-Our preprocessing pipeline handles social media text characteristics:
+The preprocessing pipeline handles social media text characteristics:
 
 ```python
 import tweetnlp
@@ -225,7 +225,7 @@ Examples of missed antisemitic content included:
 
 ### **5.1 Model Comparison Insights**
 
-Our comparison revealed that:
+The comparison revealed that:
 - The custom model showed better precision for antisemitism detection
 - The general model had better recall but higher false negative rates
 - Specialized training data significantly improved antisemitism-specific detection
@@ -234,7 +234,7 @@ Our comparison revealed that:
 ### **5.2 Limitations and Challenges**
 
 #### **Data Limitations**
-- **Small Dataset Size**: The 10-90 split limited our ability to train robust models
+- **Small Dataset Size**: The 10-90 split limited the ability to train robust models
 - **Annotation Quality**: Subjectivity in antisemitism detection
 - **Class Imbalance**: Uneven distribution of antisemitic vs. non-antisemitic content
 
@@ -267,7 +267,7 @@ Our comparison revealed that:
 
 ### **6.1 Code Structure**
 
-Our implementation includes several key components:
+My implementation includes several key components:
 
 #### **Model Training & implementation**
 ```python
@@ -341,7 +341,7 @@ inputs = {
     "validation": TrainingInput(s3_data=f"s3://{bucket}/data/validation.csv", content_type="text/csv"),
 }
 
-# git configuration to download our fine-tuning script
+# git configuration to download the fine-tuning script
 git_config = {'repo': 'https://github.com/huggingface/transformers.git','branch': 'v4.49.0'}
 
 # creates Hugging Face estimator
@@ -425,7 +425,7 @@ The training process involved:
 
 ### **6.3 Frequency Analysis**
 
-Our linguistic analysis pipeline:
+Linguistic analysis pipeline:
 1. **Text Cleaning**: Remove URLs, mentions, and special characters
 2. **Tokenization**: Split text into words
 3. **Stop Word Removal**: Filter common words
@@ -442,7 +442,7 @@ Our linguistic analysis pipeline:
 2. **Linguistic patterns** in antisemitic content are distinct from general hate speech
 3. **Model ensemble approaches** may provide the best performance
 4. **Human oversight remains crucial** for high-stakes content moderation
-5. **Training significantly improves detection** - our model showed a 76% improvement in antisemitic tweet detection
+5. **Training significantly improves detection** - the model showed a 76% overall improvement in antisemitic tweet detection
 
 ### **7.2 Future Work**
 
