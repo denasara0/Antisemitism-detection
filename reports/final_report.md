@@ -2,7 +2,7 @@
 
 ## **General  Summary**
 
-This project implements and compares two approaches for detecting antisemitic content in social media posts: a custom-trained antisemitism detection model and a pre-trained general hate speech detection model. Using a 10-90 test-train split due to computational constraints, we evaluated both models on the same unseen dataset and conducted linguistic analysis to understand patterns in antisemitic content. While the limited dataset size presents challenges, this work provides valuable insights into the effectiveness of specialized vs. general models for antisemitism detection.
+This project implements and compares two approaches for detecting antisemitic content in social media posts: a custom-trained antisemitism detection model and a pre-trained general hate speech detection model. Using a 10-90 test-train split due to computational constraints, we evaluated both models on the same unseen dataset and conducted linguistic analysis to understand patterns in antisemitic content. While the limited dataset size presents challenges, this work provides valuable insights into the effectiveness of specialized vs. general models for antisemitism detection. Future models will benefit from inlcuding a confidence score, and dataset labled as "HATE" and "NOT-HATE" rather than a binary system.
 
 ---
 
@@ -42,7 +42,7 @@ Due to computational limitations, we employed a 10-90 test-train split. While th
 ### **2.2 Model Architecture**
 
 #### **Custom Antisemitism Model**
-Our custom model was built using a transformer-based architecture, specifically fine-tuned for haate detection:
+Our custom model was built using a transformer-based architecture, specifically fine-tuned for hate detection:
 
 ```python
 # Model training configuration
@@ -198,6 +198,8 @@ Qualitative analysis of misclassified content revealed several patterns:
 - **Context-dependent language**: Words that can be antisemitic in certain contexts but neutral in others
 - **Sarcasm and irony**: Difficult for models to interpret correctly
 - **Cultural references**: Legitimate discussions about Jewish culture or history
+- **Quotations**: Tweets that are quoting antisemitic content. but are not antisemetic themselves can be flagged
+
 
 ### **4.2 False Negatives**
 
@@ -205,6 +207,7 @@ Examples of missed antisemitic content included:
 - **Subtle antisemitism**: Implicit bias and dog whistles
 - **Coded language**: Terms that have antisemitic connotations but aren't explicitly hateful
 - **Complex narratives**: Multi-sentence antisemitic content
+- **Lexical changes**: Words that evolved into a hateful connotation.
 
 ### **4.3 Model-Specific Errors**
 
@@ -224,7 +227,7 @@ Examples of missed antisemitic content included:
 
 Our comparison revealed that:
 - The custom model showed better precision for antisemitism detection
-- The general model had better recall but higher false positive rates
+- The general model had better recall but higher false negative rates
 - Specialized training data significantly improved antisemitism-specific detection
 - **Training improved detection by 76%** (34 → 60 antisemitic tweets detected)
 
@@ -243,6 +246,7 @@ Our comparison revealed that:
 - **Domain Shift**: Performance degradation on different social media platforms
 - **Temporal Drift**: Language patterns change over time
 
+
 ### **5.3 Recommendations**
 
 #### **For Future Research**
@@ -250,6 +254,7 @@ Our comparison revealed that:
 2. **Computational Resources**: Use cloud computing for larger-scale training
 3. **Ensemble Methods**: Combine multiple models for better performance
 4. **Active Learning**: Iteratively improve models with human feedback
+5. **Confidence Scoring** Use float values to determine how likely a comment is hateful
 
 #### **For Practical Implementation**
 1. **Model Ensemble**: Use both custom and general models together
@@ -468,11 +473,6 @@ This work contributes to:
 - **Evaluation Strategy**: Per epoch
 - **Save Strategy**: Per epoch
 
-#### **Naive Bayes Classifier**
-- **Vectorizer**: TF-IDF with 5000 max features
-- **N-gram Range**: (1, 2)
-- **Min/Max Document Frequency**: 2/0.95
-- **Stop Words**: English
 
 ### **8.2 Dataset Statistics**
 
@@ -509,15 +509,6 @@ python model_training/train.py
 python src/iaa_analysis.py
 ```
 
-#### **File Structure** 
-
-
-
-## **Acknowledgments**
-
-This work was conducted as part of the Antisemitism Detection Challenge, using gold standard datasets and following established evaluation protocols. Special thanks to the challenge organizers for providing the annotated datasets and evaluation framework.
-
----
 
 ## **References**
 

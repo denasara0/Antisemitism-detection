@@ -18,9 +18,6 @@ import torch
 
 
 
-
-
-
 if __name__ == "__main__":
     
     # Load the trained model
@@ -65,7 +62,7 @@ if __name__ == "__main__":
     
     # Load the data to annotate
     try:
-        df = pd.read_csv("../ML_annotated_dataframe.csv")
+        df = df
         print(f"Loaded {len(df)} tweets for annotation")
     except Exception as e:
         print(f"data load error: {e}")
@@ -85,7 +82,7 @@ if __name__ == "__main__":
         
         # Try different possible column names for text
         text_column = None
-        for col in ['Text', 'text', 'tweet_text', 'content', 'description']:
+        for col in ['Text', 'text', 'tweet_text', 'content', 'description', 'tweet_content']:
             if col in df.columns:
                 text_column = col
                 break
@@ -132,7 +129,7 @@ if __name__ == "__main__":
             print(f"Error processing tweet {index}: {e}")
     
     # Save results
-    output_file = "custom_annotations.csv"
+    output_file = "model_full_hate.csv"
     df.to_csv(output_file, index=False)
     print(f"saved to: {output_file}")
     
