@@ -4,6 +4,9 @@
 
 This project implements and compares two approaches for detecting antisemitic content in social media posts: a custom-trained antisemitism detection model and a pre-trained general hate speech detection model. Using a 10-90 test-train split due to computational constraints, I evaluated both models on the same unseen dataset and conducted linguistic analysis to understand patterns in antisemitic content. While the limited dataset size presents challenges, this work provides valuable insights into the effectiveness of specialized vs. general models for antisemitism detection. Future models will benefit from inlcuding a confidence score, and dataset labled as "HATE" and "NOT-HATE" rather than a binary system.
 
+### **Important Note** :
+Due to the size of the model, it could not be attached to this github repository. That being said, all training scripts and files used to train the model are included.
+
 ---
 
 ## **1. Introduction**
