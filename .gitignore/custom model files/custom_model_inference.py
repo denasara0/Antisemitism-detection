@@ -81,7 +81,7 @@ if __name__ == "__main__":
     
     # Confidence threshold for hate classification
     HATE_THRESHOLD = 0.78
-    print(f"🎯 Using confidence threshold: {HATE_THRESHOLD} for hate classification")
+    print(f"Using confidence threshold: {HATE_THRESHOLD} for hate classification")
     
     # Process each tweet
     for index, row in df.iterrows():

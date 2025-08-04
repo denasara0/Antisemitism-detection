@@ -113,7 +113,7 @@ def train_model():
             max_length=256  # Standard length for text data
         )
     
-    print("🔧 Tokenizing dataset...")
+    print(" Tokenizing dataset...")
     tokenized = dataset.map(tokenize, batched=True)
     tokenized = tokenized.rename_column("bias", "labels")
     tokenized.set_format("torch", columns=["input_ids", "attention_mask", "labels"])
